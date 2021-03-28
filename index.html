@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Умное голосование</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> </head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        #first {
+            position: absolute;
+            display: flex;
+        }
+        
+        #score1 {
+            position: absolute;
+            width: 300px;
+            height: 245px;
+            border: 2px solid black;
+            left: 305px;
+        }
+        
+        #second {
+            display: flex;
+            position: absolute;
+            top: 256px;
+        }
+        
+        #score2 {
+            width: 300px;
+            height: 245px;
+            border: 2px solid black;
+            position: absolute;
+            left: 305px;
+        }
+        
+        #third {
+            display: flex;
+            position: absolute;
+            top: 502px;
+        }
+        
+        #score3 {
+            width: 300px;
+            height: 245px;
+            border: 2px solid black;
+            position: absolute;
+            left: 305px;
+        }
+        
+        .styleofscore {
+            font-size: 70px;
+            text-align: center;
+        }
+    </style>
+    <div id="biggest">
+        <div id="first"><img src="putting.jpg" id="img1" width="300px" height="250px">
+            <div id="score1"></div>
+        </div>
+        <div id="second"><img src="2.jpeg" id="img2" width="300px" height="250px">
+            <div id="score2"></div>
+        </div>
+        <div id="third"><img src="3.png" id="img3" width="300px" height="250px">
+            <div id="score3"></div>
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+
+</html>
